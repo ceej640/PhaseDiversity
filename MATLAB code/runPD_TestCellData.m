@@ -11,7 +11,7 @@ AOpath = fullfile(pkgdir, '/Datasets/AO/230921 AO0057 U2OS_Cell');
 
 function matchedDir = findpkg()
     pathdir = path;
-    targetDir = '/PD-package';
+    targetDir = '/PhaseDiversity';
     if contains(pathdir, targetDir)
         pathDirs = strsplit(path, ';');
         matchedDir = '.';

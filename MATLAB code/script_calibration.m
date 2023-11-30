@@ -68,7 +68,7 @@ zernikeObject = ZernikePolynomials.getInstance(pupilMask,'ANSI',0,flagGPU);
 
 %% Get list of desired folders
 
-maindir =uigetdir('','Select "DM Calibration" folder in PD-package/Datasets/');
+maindir =uigetdir('','Select "DM Calibration" folder in PhaseDiversity/Datasets/');
 cd(maindir)
 dirlistmain = dir(maindir);
 % Filter subfolders
