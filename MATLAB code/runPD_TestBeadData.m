@@ -13,7 +13,7 @@ AOpath = fullfile(pkgdir, '/Datasets/AO/230904 AO2649 Beads');
 
 function matchedDir = findpkg()
     pathdir = path;
-    targetDir = '/PhaseDiversity';
+    targetDir = [filesep 'PhaseDiversity'];
     if contains(pathdir, targetDir)
         pathDirs = strsplit(path, ';');
         matchedDir = '.';
